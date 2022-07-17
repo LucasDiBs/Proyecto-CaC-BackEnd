@@ -5,9 +5,11 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <%
+	//hola que tal
 	Usuario usuario = (Usuario) session.getAttribute("usuario");
 	List<Producto> productosDestacados = (List<Producto>) request.getAttribute("productosDestacados");
 %>
+
 <!doctype html>
 <html lang="es">
 
